@@ -99,7 +99,7 @@ public class PlivoClient {
   }
 
   private final Interceptor interceptor = new HttpLoggingInterceptor()
-    .setLevel(Level.BODY);
+    .setLevel(Level.NONE);
   private final String authId;
   private final String authToken;
   private OkHttpClient httpClient;
